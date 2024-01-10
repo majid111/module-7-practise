@@ -11,12 +11,23 @@
     <style>
         .Task-1{
             
-            display: flex;
+            display: grid;
+            grid-template-columns: (2,1f);
         }
         .task-1-1{
+            display: grid;
+            grid-template-rows: (2,1f);
             text-align: center;
-             border: 3px yellowgreen dashed;
+             border: 3px rgb(165, 243, 8) dashed;
              padding: 5px;
+        }
+        .task-1-1-1{
+            display: grid;
+            columns: (2,1f);
+            text-align: center;
+             border: 3px rgb(205, 73, 50) dashed;
+             padding: 5px;
+
         }
 
         img{
@@ -47,7 +58,12 @@
  <main>
     <div class="Task-1">
         <div class="task-1-1"><img src="image/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="flower"></div>
-        <div class="task-1-1"><img src="image/sergey-shmidt-koy6FlCCy5s-unsplash.jpg" alt="flower-2">
+        <div class="task-1-1">
+            <img src="image/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="flower-2">
+            <div class="task-1-1-1">
+                <img src="image/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="">
+                <img src="image/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="">
+            </div>
         </div>
     </div>
  </main>   
