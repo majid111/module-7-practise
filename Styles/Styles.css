@@ -1,0 +1,28 @@
+ul{
+    display: flex;
+    gap: 25px;
+
+}
+li{
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+   background-color: rgba(63, 70, 92, 0.534);
+}
+
+
+
+
+
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+footer h4{
+    color: white;
+}
