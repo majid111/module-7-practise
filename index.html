@@ -9,12 +9,28 @@
     <link rel="stylesheet" href="Styles/Styles.css">
 
     <style>
-        .task-1{
+        .Task-1{
+            
             display: flex;
         }
+        .task-1-1{
+            text-align: center;
+             border: 3px yellowgreen dashed;
+             padding: 5px;
+        }
+
+        img{
+            width: 60%;
+        }
+
+        @media screen and (max-width:576px){
+            .Task-1{display: flex;
+        flex-direction: column;
+    }
+        
+    }
     </style>
 
-    
 </head>
 <body>
  <Header>
@@ -30,8 +46,9 @@
  </Header>
  <main>
     <div class="Task-1">
-        <img src="image/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="flower">
-        <img src="image/sergey-shmidt-koy6FlCCy5s-unsplash.jpg" alt="flower-2">
+        <div class="task-1-1"><img src="image/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="flower"></div>
+        <div class="task-1-1"><img src="image/sergey-shmidt-koy6FlCCy5s-unsplash.jpg" alt="flower-2">
+        </div>
     </div>
  </main>   
  <footer>
