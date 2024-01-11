@@ -1,0 +1,38 @@
+.image-1{grid-area: a;}
+.image-2{grid-area: b;}
+.image-3{grid-area: c;}
+.image-4{grid-area: d;}
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    "a a b b" 
+    "a a c d" ;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+div{
+    border: 2px dotted sienna;
+}
+        /* .Task-1{
+            
+            display: flex;
+        }
+        .task-1-1{
+            text-align: center;
+             border: 3px yellowgreen dashed;
+             padding: 5px;
+        }
+
+        
+
+        @media screen and (max-width:576px){
+            .Task-1{display: flex;
+        flex-direction: column;
+    }
+        
+    } */
