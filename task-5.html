@@ -7,29 +7,9 @@
 
     <!-- Styles are here -->
     <link rel="stylesheet" href="Styles/navStyles.css">
+    <link rel="stylesheet" href="Styles/styleForTask5.css">
 
-    <style>
-        .Task-1{
-            
-            display: flex;
-        }
-        .task-1-1{
-            text-align: center;
-             border: 3px yellowgreen dashed;
-             padding: 5px;
-        }
-
-        img{
-            width: 60%;
-        }
-
-        @media screen and (max-width:576px){
-            .Task-1{display: flex;
-        flex-direction: column;
-    }
-        
-    }
-    </style>
+    
 
 </head>
 <body>
@@ -46,9 +26,77 @@
     </Nav>
  </Header>
  <main>
-    <div class="Task-1">
-        <div class="task-1-1"><img src="image/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="flower"></div>
-        <div class="task-1-1"><img src="image/sergey-shmidt-koy6FlCCy5s-unsplash.jpg" alt="flower-2">
+    <div class="post-container">
+        <div class="post-1">
+            <div class="image">
+                <img src="image/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="flower">
+            </div>
+            <div>
+                <h2>Why do we use it?</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem repellendus voluptas, sapiente ab quod sint excepturi nihil voluptatibus fuga sequi.</p>
+            </div>
+        </div>
+        <div class="post-2">
+            <div class="image">
+                <img src="image/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="flower">
+            </div>
+            <div>
+                <h2>Why do we use it?</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem repellendus voluptas, sapiente ab quod sint excepturi nihil voluptatibus fuga sequi.</p>
+            </div>
+        </div>
+        <div class="post-1">
+            <div class="image">
+                <img src="image/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="flower">
+            </div>
+            <div>
+                <h2>Why do we use it?</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem repellendus voluptas, sapiente ab quod sint excepturi nihil voluptatibus fuga sequi.</p>
+            </div>
+        </div>
+        <div class="post-2">
+            <div class="image">
+                <img src="image/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="flower">
+            </div>
+            <div>
+                <h2>Why do we use it?</h2>
+                <p>*{<br>
+                    margin: 0;<br>
+                }<br><br>
+                img{<br>
+                    max-width: 50vw ;<br>
+                    padding: 10px;<br>
+                }<br><br>
+                .post-1{<br>
+                    display: flex;<br>
+                    border: 2px solid goldenrod;<br>
+                }<br><br>
+                .post-1 div{<br>
+                    border: 2px solid rgb(97, 74, 15);<br>
+                }<br>
+                <br>
+                .post-2{<br>
+                    display: flex;<br>
+                    flex-direction: row-reverse;<br>
+                    border: 2px solid rgb(131, 218, 32);<br>
+                }<br><br>
+                .post-2 div{<br>
+                    border: 2px solid rgb(69, 116, 15);<br>
+                }<br><br>
+                
+                @media screen and (max-width:576px){<br>
+                    .post-2{<br>
+                        display: flex;<br>
+                        flex-direction:column;<br>
+                        border: 2px solid rgb(131, 218, 32);<br>
+                        }<br><br>
+                .post-1{<br>
+                    display: flex;<br>
+                    flex-direction:column;<br>
+                    border: 2px solid goldenrod;<br>
+                    } <br>
+                }</p>
+            </div>
         </div>
     </div>
  </main>   
