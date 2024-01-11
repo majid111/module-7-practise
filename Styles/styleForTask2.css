@@ -3,13 +3,37 @@
 .image-3{grid-area: c;}
 .image-4{grid-area: d;}
 
+.box1{grid-area: header;}
+.box2{grid-area: menu;}
+.box3{grid-area: main;}
+.box4{grid-area: aside;}
+.box5{grid-area: advertisement;}
+.box6{grid-area: footer;}
+
 .container{
     display: grid;
-    grid-template-areas: 
+    gap: 20px;
+    grid-template-areas:
     "a a b b" 
-    "a a c d" ;
+    "a a c d";
 }
 
+.container-2{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "header header header header" 
+    "menu main main aside " 
+    "menu main main advertisement"
+    "footer footer footer footer" ;
+}
+.container-2 h2{
+    text-align: center;
+}
+.container-2 p{
+    padding: 40px;
+    font-size: 24px;
+}
 
 img{
     width: 100%;
