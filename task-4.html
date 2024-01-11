@@ -7,30 +7,9 @@
 
     <!-- Styles are here -->
     <link rel="stylesheet" href="Styles/navStyles.css">
+    <link rel="stylesheet" href="Styles/styleForTask4.css">
 
-    <style>
-        .Task-1{
-            
-            display: flex;
-        }
-        .task-1-1{
-            text-align: center;
-             border: 3px yellowgreen dashed;
-             padding: 5px;
-        }
-
-        img{
-            width: 60%;
-        }
-
-        @media screen and (max-width:576px){
-            .Task-1{display: flex;
-        flex-direction: column;
-    }
-        
-    }
-    </style>
-
+   
 </head>
 <body>
  <Header>
@@ -46,11 +25,83 @@
     </Nav>
  </Header>
  <main>
-    <div class="Task-1">
-        <div class="task-1-1"><img src="image/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="flower"></div>
-        <div class="task-1-1"><img src="image/sergey-shmidt-koy6FlCCy5s-unsplash.jpg" alt="flower-2">
+   <div class="container">
+    
+    <div class="post">
+        <div class="image"><img src="image/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="flower"></div>
+        <div class="article">
+            <h2 class="post-title">Post will be here</h2>
+            <p class="article">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat praesentium doloremque ipsam corrupti nihil assumenda explicabo rem iure, amet omnis voluptates placeat sed et, ratione qui? Dolores soluta officiis possimus dicta accusantium, eius pariatur nihil sapiente, minus tempora cumque laborum totam at? In quo praesentium quisquam voluptatum voluptatem nihil asperiores?</p>
+            <button type="submit" class="btn">Post</button>
         </div>
+        </div>
+    
+    <div class="post">
+        <div class="image"><img src="image/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="flower"></div>
+        <div class="article">
+            <h2 class="post-title">Post will be here</h2>
+            <p class="article">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat praesentium doloremque ipsam corrupti nihil assumenda explicabo rem iure, amet omnis voluptates placeat sed et, ratione qui? Dolores soluta officiis possimus dicta accusantium, eius pariatur nihil sapiente, minus tempora cumque laborum totam at? In quo praesentium quisquam voluptatum voluptatem nihil asperiores?</p>
+            <button type="submit" class="btn">Post</button>
+        </div>
+        </div>
+    
+    <div class="post">
+        <div class="image"><img src="image/aarn-giri-3tYZjGSBwbk-unsplash.jpg" alt="flower"></div>
+        <div class="article">
+            <h2 class="post-title">Post will be here</h2>
+            <p class="article">
+                img{<br>
+                max-width: 400px;<br>
+                max-height: 400px;<br>
+                margin-right: 20px;<br>
+            }<br><br>
+            .container{<br>
+                border: 2px solid tan;<br>
+            }<br><br>
+            .post{<br>
+                margin-top: 10px;<br>
+                display: flex;<br>
+                border: 2px solid rgb(96, 184, 37);<br>
+            }<br><br>
+            .post .btn{<br>
+                color: azure;<br>
+                background-color: rgb(63, 63, 245);<br>
+                font-size: 18px;<br>
+                border: 0;<br>
+                border-radius: 5px;<br>
+                padding: 5px 35px;<br>
+                text-align: center;<br>
+            }<br><br>
+            .post p{<br>
+                font-size: 20px;<br>
+            }<br><br>
+            
+            .post h2{<br>
+                font-size: 36px;<br>
+            }<br><br>
+            
+            .post .btn:hover{<br>
+                color: azure;<br>
+                background-color: rgb(110, 110, 196);<br>
+            }<br><br>
+            
+            
+            @media screen and (max-width:576px){
+                .post{<br>
+                    display: flex;<br>
+                    flex-direction: column;<br>
+                    padding: 5px 10px 10px;<br>
+                } <br>
+                <br>
+                
+            }</p>
+            <button type="submit" class="btn">Post</button>
+        </div>
+        </div>
+
+
     </div>
+
  </main>   
  <footer>
     <h4>2029.&copy; All right Reserved. </h4>

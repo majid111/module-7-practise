@@ -1,0 +1,68 @@
+img{
+    max-width: 400px;
+    max-height: 400px;
+    margin-right: 20px;
+}
+.container{
+    border: 2px solid tan;
+}
+.post{
+    margin-top: 10px;
+    display: flex;
+    border: 2px solid rgb(96, 184, 37);
+}
+.post .btn{
+    color: azure;
+    background-color: rgb(63, 63, 245);
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 35px;
+    text-align: center;
+}
+.post p{
+    font-size: 20px;
+}
+
+.post h2{
+    font-size: 36px;
+}
+
+.post .btn:hover{
+    color: azure;
+    background-color: rgb(110, 110, 196);
+}
+
+
+@media screen and (max-width:576px){
+    .post{
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px 10px;
+    }
+    
+}
+
+
+/* <style>
+.Task-1{
+    
+    display: flex;
+}
+.task-1-1{
+    text-align: center;
+     border: 3px yellowgreen dashed;
+     padding: 5px;
+}
+
+img{
+    width: 60%;
+}
+
+@media screen and (max-width:576px){
+    .Task-1{display: flex;
+flex-direction: column;
+}
+
+}
+</style> */
